@@ -1,12 +1,12 @@
 import React from 'react';
-import asb from "../src/images/family.svg";
+import nikky from "../src/images/nikky.jpg";
 import Common from './Common';
 
 
 const Home = () => {
     return (
         <>
-      <Common imgsrc={asb} link = "/service" btntitle ='Get Started' />
+      <Common imgsrc={nikky} link = "/service" btntitle ='Get Started' />
            
         </>
     );
