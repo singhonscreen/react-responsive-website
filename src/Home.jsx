@@ -1,12 +1,12 @@
 import React from 'react';
-import nikky from "../src/images/nikky.jpg";
+import family from "../src/images/family.svg";
 import Common from './Common';
 
 
 const Home = () => {
     return (
         <>
-      <Common imgsrc={nikky} link = "/service" btntitle ='Get Started' />
+      <Common imgsrc={family} link = "/service" btntitle ='Get Started' />
            
         </>
     );
